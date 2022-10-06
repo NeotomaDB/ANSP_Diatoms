@@ -39,7 +39,14 @@ pacman::p_load(char = packages)
 
 ### Working with Rmarkdown
 
-Documents within the `R Markdown` folder 
+Documents within the [`RMarkdowns`]() folder use the `Rmd` file format. The files are plain text files that can be rendered using [RMarkdown](https://rmarkdown.rstudio.com/). RMarkdown can be rendered directly to a PDF, HTML file or Word document by users, either in RStudio, or from R directly using the command:
+
+```R
+rmarkdown::render('RMarkdowns/diatoms.Rmd')
+```
+
+This assumes that all packages are installed as expected. There may be issues with R and the working directory that `render()` is using. If this is the case, you can check your working directory in R using the command `getwd()`, and set it to a new directory using the command `setwd(YOUR NEW WORKING DIRECTORY)`.
+
 ## Overview
 
 Data has been obtained using the `neotoma2` R package developed by Simon Goring and Socorro Dominguez. Much of the code in this repository has been derived from code they have provided.

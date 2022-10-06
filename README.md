@@ -39,7 +39,7 @@ pacman::p_load(char = packages)
 
 ### Working with Rmarkdown
 
-Documents within the [`RMarkdowns`]() folder use the `Rmd` file format. The files are plain text files that can be rendered using [RMarkdown](https://rmarkdown.rstudio.com/). RMarkdown can be rendered directly to a PDF, HTML file or Word document by users, either in RStudio, or from R directly using the command:
+Documents within the [`RMarkdowns`](./RMarkdowns/) folder use the `Rmd` file format. The files are plain text files that can be rendered using [RMarkdown](https://rmarkdown.rstudio.com/). RMarkdown can be rendered directly to a PDF, HTML file or Word document by users, either in RStudio, or from R directly using the command:
 
 ```R
 rmarkdown::render('RMarkdowns/diatoms.Rmd')

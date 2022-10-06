@@ -1,0 +1,13 @@
+rmarkdown
+analogue
+dplyr
+ggforce
+leaflegend
+leaflet
+neotoma2
+purrr
+rioja
+sf
+tidyverse
+worrms
+WriteXLS

@@ -1,3 +1,4 @@
+[![lifecycle](https://img.shields.io/badge/lifecycle-superseded-orange.svg)](https://github.com/NeotomaDB/Workshops)
 # ANSP_Diatoms
 
 ## Use
